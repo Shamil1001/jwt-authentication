@@ -31,3 +31,4 @@ export const { setCredentials, logOut } = AuthSlice.actions;
 export default AuthSlice.reducer;
 
 export const selectCurrentUSer = (state: any) => state.auth.user;
+export const selectCurrentToken = (state: any) => state.auth.token;
